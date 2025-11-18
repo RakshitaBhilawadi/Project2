@@ -7,47 +7,84 @@ body{
   background-color: white;
   border-radius: 15px;
   justify-content: center;
-  padding: 25px;
+  padding: 35px;
+  position: relative;
 }
-button{
+.but{
   border-radius: 20px;
   padding: 10px 20px;
   background-color:rgb(240, 118, 52) ;
   color: white;
-  border: none;
-  text-decoration: solid;
-  align-items: right;
-  margin-left: 90%;
-  margin-top: 20px;
+  right: 10px;
+  position: absolute;
+  margin-top: -20px;
 }
 h1{
-  font-family: Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
 }
-.img1{
-  width: 30px;
-  height: 25px;
-  
+h2{
+  padding: 5px;
+  border-left: 5px solid #e5825e;
 }
-.ser{
-  width: 30px;
-  height: 25px;
-  margin-left: 25px;
+.min{
+  margin: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
 }
-.rate{
-  width: 30px;
-  height: 25px;
-  margin-left: 25px;
+.serv{
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
 }
-.bulb{
-  width: 30px;
-  height: 25px;
-  margin-top: 15px;
+.rati{
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
 }
+
 footer{
   margin-top: 10px;
 }
 .icon{
   justify-content: left;
   display: flex;
+}
+.highlight{
+  background-color: yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-left: 5px solid #4682b4;
+  border-radius: 5px;
+  margin-top:30px;
+  font-size: 15px;
+}
+hr{
+  background-color: rgb(252, 249, 249);
+  margin-top: 20px;
+}
+ul li{
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: grey;
+  border-bottom: 1px solid grey;
+
+}
+ul li::before{
+  content: "✔";
+  color: rgb(237, 104, 46);
+  margin-left: -50px;
+  padding: 10px;
+  
+}
+ol li{
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: grey;
+  margin-left: -20px;
+
 }
