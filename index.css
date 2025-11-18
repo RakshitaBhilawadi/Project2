@@ -1,0 +1,53 @@
+
+body{
+  background-color: rgb(226, 222, 222);
+  padding: 20px;
+}
+.container{
+  background-color: white;
+  border-radius: 15px;
+  justify-content: center;
+  padding: 25px;
+}
+button{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color:rgb(240, 118, 52) ;
+  color: white;
+  border: none;
+  text-decoration: solid;
+  align-items: right;
+  margin-left: 90%;
+  margin-top: 20px;
+}
+h1{
+  font-family: Arial;
+  display: flex;
+}
+.img1{
+  width: 30px;
+  height: 25px;
+  
+}
+.ser{
+  width: 30px;
+  height: 25px;
+  margin-left: 25px;
+}
+.rate{
+  width: 30px;
+  height: 25px;
+  margin-left: 25px;
+}
+.bulb{
+  width: 30px;
+  height: 25px;
+  margin-top: 15px;
+}
+footer{
+  margin-top: 10px;
+}
+.icon{
+  justify-content: left;
+  display: flex;
+}
